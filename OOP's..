@@ -1,0 +1,92 @@
+ *** Object oriented programming - A programming approach which follows concept of object oriented programming like class, object 
+       , data abstraction & encapsulation, inheritance, polymorphism etc, is known as Object oriented programming...
+ 
+***Object --  An object is a real world entity which has its name and own properties. For example- apple is an object 
+and its properties are name, color, size and taste etc, like..
+
+The basic concepts of object oriented programming are:
+1..Object
+2..Class
+3..Inheritance
+4..Data Abstraction
+5..Data Encapsulation
+6..Polymorphism
+
+ ***OBJECT  -- An object is an instance of a class. Object is one of the basic elements of OOP’s; it is most significant unit 
+as without creating object, we cannot access the functionality of the class. After defining the class, we create 
+its object to get accessibility of data member and member functions of respective class.
+Syntax:
+class_name object_name  ...
+
+CLASS  -- Class is a user define data type; we call it user define because a user can define the data and 
+   functions as per their requirements
+   
+yntax
+
+    class class_name
+    {
+      //data members section
+      private:
+         ...;                             
+         ...;
+   
+      // member functions section
+      public:
+         ...;
+         ...;
+    };
+    
+    eg...
+    
+    #include <iostream>
+using namespace std;
+
+class student
+{	
+	private:
+		//sname and srollno are data members
+		char sname [30];
+		int    srollno;
+
+		public:
+			void getinput()
+			{
+				// get name from the Keyboard 
+				cout<<"Input Students Name: ";  
+				cin>>sname;
+				
+				// get rollno from the Keyboard
+				cout<<"Input Students Roll Number: ";
+				cin>>srollno;	          
+			}
+			void getoutput()
+			{
+				// shows name on monitor
+				cout<<"Students Name:"<< sname << endl;     
+				// shows rollno on monitor
+				cout<<"Student Roll Number:"<<srollno<< endl;   
+			}
+};
+
+//main code
+int main()
+{
+	// s is an object of student class
+	student s;                  
+
+	// the getinput method is being called
+	s.getinput();             
+	
+	// the getoutput method is being called
+	s.getoutput();
+	
+	return 0;
+}
+Output
+
+Input Students Name: DUGGU 
+Input Students Roll Number: 101 
+Students Name:DUGGU
+Student Roll Number:101
+
+
