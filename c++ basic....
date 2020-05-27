@@ -1,0 +1,69 @@
+c++..
+C++ is a general-purpose programming language and widely used nowadays for competitive programming. It has imperative, 
+object-oriented and generic programming features. C++ runs on lots of platform like Windows, Linux, Unix, Mac, etc
+
+extension :: .CPP, .C, .CP...
+
+NOTE ::  The two keywords cout and cin are used very often for taking inputs and printing outputs.
+
+NOTE** The #include directive tells the compiler to include a file and #include<iostream> . It tells the compiler to include
+        the standard iostream file which contains declarations of all the standard input/output library functions.
+        
+***  using namespace std: This is used to import the entirety of the std namespace into the current namespace of the program..
+    The std namespace is huge. The alternative to this statement is to specify the namespace to which the identifier belongs 
+    using the scope operator(::) each time we declare a type.
+   
+*** int main(): This line is used to declare a function named “main” which returns data of integer type. A function is a 
+    group of statements that are designed to perform a specific task..
+    
+**** { and }: The opening braces ‘{‘ indicates the beginning of the main function and the closing braces ‘}’ indicates 
+    the ending of the main function. Everything between these two comprises the body of the main function.
+    
+***  return 0; : This is also a statement. This statement is used to return a value from a function and indicates the 
+finishing of a function. This statement is basically used in functions to return the results of the operations performed by a function.
+
+https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191113115600/DatatypesInC.png
+
+data type::  https://www.geeksforgeeks.org/c-data-types/
+
+***  Preprocessors are programs that process our source code before compilation.
+
+*** All of these preprocessor directives begin with a ‘#’ (hash) symbol. The ‘#’ symbol indicates that, whatever statement start with #,
+is going to preprocessor program, and preprocessor program will execute this statement. Examples of some 
+preprocessor directives are: #include, #define, #ifndef etc. Remember
+that # symbol only provides a path that it will go to preprocessor, and command such as include is processed by preprocessor program..
+
+***There are 4 main types of preprocessor directives:
+1..Macros
+2..File Inclusion
+3..Conditional Compilation
+4..Other directives
+
+*** Macros: Macros are a piece of code in a program which is given some name. Whenever this name is encountered by the compiler the
+compiler replaces the name with the actual piece of code. The ‘#define’ directive is used to define a macro
+
+File Inclusion: This type of preprocessor directive tells the compiler to include a file in the source code program.
+There are two types of files which can be included by the user in the program:
+
+Header File or Standard files: These files contains definition of pre-defined functions like printf(), scanf() etc.
+These files must be included for working with these functions. Different function are declared in different header files.
+For example standard I/O funuctions are in ‘iostream’ file whereas functions which perform string operations are in ‘string’ file.
+Syntax:  #include< file_name >
+
+user defined files: When a program becomes very large, it is good practice to divide it into smaller files and include whenever needed.
+These types of files are user defined files. These files can be included as:
+#include"filename"...
+
+** Conditional Compilation: Conditional Compilation directives are type of directives which helps to compile a specific portion of 
+the program or to skip compilation of some specific part of the program based on some conditions. This can be done with the help of 
+two preprocessing commands ‘ifdef‘ and ‘endif‘.
+
+.....   https://www.geeksforgeeks.org/cc-preprocessors/  ...
+
+  ***   https://www.geeksforgeeks.org/loops-in-c-and-cpp/     ...
+  
+  ***   https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/     ***
+  
+  ****     coding    https://www.geeksforgeeks.org/undefined-behavior-c-cpp/    ....
+  
+  
