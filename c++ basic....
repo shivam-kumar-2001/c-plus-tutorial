@@ -67,3 +67,45 @@ two preprocessing commands ‘ifdef‘ and ‘endif‘.
   ****     coding    https://www.geeksforgeeks.org/undefined-behavior-c-cpp/    ....
   
   
+****   We can encapsulate multiple classes into single namespace. Here, std is a namespace and :: (Scope Resolution Operator) is 
+used to access member of namespace. And we include namespace std in our C++ program so that there is no need to put std:: explicitly 
+into program to use cout and other related things.   ****
+
+***Keywords  -- The reserved words of C++ may be conveniently placed into several groups..
+
+    auto   const     double  float  int       short   struct   unsigned
+    break  continue  else    for    long      signed  switch   void
+    case   default   enum    goto   register  sizeof  typedef  volatile
+    char   do        extern  if     return    static  union    while  
+    
+     asm         dynamic_cast  namespace  reinterpret_cast  try
+    bool        explicit      new        static_cast       typeid
+    catch       false         operator   template          typename
+    class       friend        private    this              using
+    const_cast  inline        public     throw             virtual
+    delete      mutable       protected  true              wchar_t
+    
+     and      bitand   compl   not_eq   or_eq   xor_eq
+    and_eq   bitor    not     or       xor
+    
+ *** Identifiers  ---  Identifiers refers to the name of variables, functions, arrays, 
+    classes, etc. created by the user. Identifiers are the fundamental requirement of any language. 
+
+*** Identifier naming conventions :::
+   Only alphabetic characters, digits and underscores are permitted.
+    First letter must be an alphabet or underscore (_).
+    Identifiers are case sensitive.
+     Reserved keywords can not be used as an identifier's name.  
+     
+ ***Constants  ---  Constants refers to fixed values that do not change during the execution of a program.
+
+    Declaration of a constant  :
+    const [data_type] [constant_name]=[value];
+    
+ *** Variable  ---  variable is a meaningful name of data storage location in computer memory. When 
+ using a variable you refer to memory address of computer. 
+ 
+ https://www.includehelp.com/cpp-tutorial/exception-handling.aspx.....
+ 
+ 
+ 
